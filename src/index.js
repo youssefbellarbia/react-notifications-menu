@@ -150,8 +150,8 @@ class Notifications extends Component {
     const cardList =
       Array.isArray(data) &&
       (CustomComponent
-        ? data.map((item) => (
-            <CustomComponent key={item.message} {...this.props} data={item} />
+        ? data.map((item, index) => (
+            <CustomComponent key={index} {...this.props} data={item} />
           ))
         : data.map((item) => (
             <Card key={item.message} {...this.props} data={item} />
