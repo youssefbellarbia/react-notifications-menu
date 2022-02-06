@@ -153,8 +153,8 @@ class Notifications extends Component {
         ? data.map((item, index) => (
             <CustomComponent key={index} {...this.props} data={item} />
           ))
-        : data.map((item) => (
-            <Card key={item.message} {...this.props} data={item} />
+        : data.map((item,index) => (
+            <Card key={index} {...this.props} data={item} />
           )));
 
     return (
