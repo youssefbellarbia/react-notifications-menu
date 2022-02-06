@@ -4,7 +4,7 @@
   "description": "Notifications library",
   "author": "NaveenrajV",
   "license": "MIT",
-  "repository": "Codebrahma/react-notifications-menu",
+  "repository": "youssefbellarbia/react-notifications-menu",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
